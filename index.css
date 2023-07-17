@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding-top: 100px;
+}
+
+a {
+  margin: 23px 35px 30px 35px;
+  color: black;
+}
+
+/*establece la barra flotante*/
+#nav-bar {
+  background-color: #c7c7c7;
+}
+#nav-bar .botones {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#form, #features, #email {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+#features div {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+#features div div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+i {
+  font-size: 65px;
+  margin: 0 5px 0 5px;
+  color: yellow;
+}
+
+.btn {
+  width: 300px;
+  height: 50px;
+}
+
+iframe {
+  width: 100%;
+}
+
+#pircing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0 20px 0;
+}
+#pircing div {
+  text-align: center;
+}
+
+.footer {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 10px;
+}
+.footer p {
+  margin: 0;
+}
+
+.footer div {
+  display: flex;
+}
+.footer div a {
+  margin: 10px 10px;
+}
+
+@media (max-width: 768px) {
+  #nav-bar {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  a {
+    margin: 13px 15px 10px 15px;
+    color: black;
+  }
+  #pircing div button {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.css.map */
